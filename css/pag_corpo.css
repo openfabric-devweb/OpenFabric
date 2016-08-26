@@ -1,9 +1,0 @@
-body{
-
-background-image:url(../img/logo_background.jpg);
-background-repeat: no-repeat;}
-
-html { overflow-y: scroll; }
-html { overflow: -moz-scrollbars-vertical; }
-html { overflow-x: auto;}
-	

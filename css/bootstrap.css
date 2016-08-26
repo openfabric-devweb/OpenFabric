@@ -2551,7 +2551,7 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 34px;
+  height: 25px;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
@@ -2607,7 +2607,7 @@ input[type="search"] {
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
-    line-height: 34px;
+    line-height: 25px;
   }
   input[type="date"].input-sm,
   input[type="time"].input-sm,
@@ -2696,7 +2696,7 @@ fieldset[disabled] .checkbox label {
   cursor: not-allowed;
 }
 .form-control-static {
-  min-height: 34px;
+  min-height: 25px;
   padding-top: 7px;
   padding-bottom: 7px;
   margin-bottom: 0;
@@ -2722,14 +2722,14 @@ select[multiple].input-sm {
   height: auto;
 }
 .form-group-sm .form-control {
-  height: 30px;
+  height: 25px;
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
 }
 .form-group-sm select.form-control {
-  height: 30px;
+  height: 25px;
   line-height: 30px;
 }
 .form-group-sm textarea.form-control,
@@ -2737,7 +2737,7 @@ select[multiple].input-sm {
   height: auto;
 }
 .form-group-sm .form-control-static {
-  height: 30px;
+  height: 25px;
   min-height: 32px;
   padding: 6px 10px;
   font-size: 12px;
@@ -3441,7 +3441,7 @@ fieldset[disabled] .btn-link:focus {
   line-height: 1.3333333;
   border-radius: 6px;
 }
-.btn-sm,
+.btn btn-primary,
 .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
