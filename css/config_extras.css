@@ -13,7 +13,8 @@
 	border:1px solid #337ab7;
 }
 
-.teste{
-	background-color: #ddd;
-	height: 30px;
+/*BOTAO DO LADO DO CALENDARIO DA MARCACAO DE CONSULTA*/
+.efect_botao{
+	width: 80px;
+	margin-top: 10px;
 }

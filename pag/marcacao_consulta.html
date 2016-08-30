@@ -1,0 +1,217 @@
+<html>
+<head>
+<title>Cadastro de Pacientes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel=stylesheet href="../css/bootstrap.css" type="text/css">
+<link rel=stylesheet href="../css/pag_estilo.css" type="text/css">
+<link rel=stylesheet href="../css/config_extras.css" type="text/css">
+
+</head>
+<body>
+
+	<div id="pagina" class="container">
+		<div class="row">
+			<div id="topo" class="col-md-12"></div>
+			<div id="menu" class="col-md-12"></div>
+			<div id="corpo" class="col-md-12">
+				<form>
+					<fieldset>
+						<legend>Agenda Medica</legend>
+						<div class="row">
+
+							<fieldset class="col-md-7">
+								<div class="form-group col-md-11">
+									<select class="form-control" id="sel1">
+										<option>nome do medico aparece puchado do banco</option>
+										<option>nome do medico aparece puchado do banco</option>
+										<option>nome do medico aparece puchado do banco</option>
+										<option>nome do medico aparece puchado do banco</option>
+									</select>
+								</div>
+								<div class="col-md-1">
+									<input type="button" value="○" class="btn btn-primary btn-sm">
+								</div>
+
+								<div class="row form-group col-md-12">Data por extenso vai
+									aqui!</div>
+								<div class="row form-group col-md-12">
+
+									<table class="table table-hover table-bordered"
+										style="font-size: 12">
+										<thead>
+											<tr>
+												<th></th>
+												<th>Hora</th>
+												<th>Paciente</th>
+												<th>Tipo</th>
+												<th>Status</th>
+												<th>Valor</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>☺</td>
+												<td>11:23</td>
+												<td>Francisco cena da silva</td>
+												<td>Consulta</td>
+												<td>Marcado</td>
+												<td>R$ 120,00</td>
+											</tr>
+											<tr>
+												<td>☺</td>
+												<td>11:23</td>
+												<td>carlos alberto de oliveira</td>
+												<td>Consulta</td>
+												<td>Confirmado</td>
+												<td>R$ 50,00</td>
+											</tr>
+											<tr>
+												<td>☺</td>
+												<td>11:23</td>
+												<td>lenita tavares duarte silva</td>
+												<td>Consulta</td>
+												<td>Cancelado</td>
+												<td>R$ 90,00</td>
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+
+								<div class="row col-md-12">Consultas deste Paciente</div>
+								<div class="row col-md-12">
+									<table class="table table-hover table-bordered"
+										style="font-size: 12">
+										<thead>
+											<tr>
+
+												<th>Data / Hora</th>
+												<th>Tipo</th>
+												<th>Status</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>29/08/2016 - 15:00</td>
+												<td>Consulta</td>
+												<td>Realizado</td>
+
+											</tr>
+											<tr>
+												<td>29/08/2016 - 15:00</td>
+												<td>Consulta</td>
+												<td>Agendado</td>
+
+											</tr>
+											<tr>
+												<td>29/08/2016 - 15:00</td>
+												<td>Consulta</td>
+												<td>Cancelado</td>
+
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+								<div class="row col-md-12">Notas do dia</div>
+								<div class="row col-md-12">
+									<textarea class="form-control"></textarea>
+								</div>
+
+
+
+							</fieldset>
+
+							<fieldset class="col-md-5">
+								<legend></legend>
+								<div class="row col-md-8" style="background-color: #ddd;">
+									<div class="col-md-12" style="height: 180px;">
+									
+									<!-- aqui vai o calendario para selecao de datas -->
+									
+									
+									
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="col-md-12">
+										<input type="button" value="Hoje"
+											class="btn btn-primary btn-sm efect_botao"> <input
+											type="button" value="proximo Mes"
+											class="btn btn-primary btn-sm efect_botao"> <input
+											type="button" value="Mes Anterior"
+											class="btn btn-primary btn-sm efect_botao"> <input
+											type="button" value="Atualizar"
+											class="btn btn-primary btn-sm efect_botao">
+									</div>
+								</div>
+
+							</fieldset>
+							
+							<fieldset class="col-md-5">
+								<legend></legend>
+								<div class="row">
+									<div class="row col-md-12 form-group">
+									<div class="col-md-4">Hora</div>
+									<div class="col-md-8">Tipo de Compromisso</div>
+									<div class="col-md-4 form-group"> <input type="text" size="5" class="form-control"> </div>
+									<div class="col-md-8 form-group">
+										<select class="form-control"><option>teste</option> </select>
+									</div>
+									<div class="col-md-12">Nome do paciente</div>
+									<div class="col-md-10 form-group"> <input type="text" size="5" class="form-control"> </div>
+									<div class="col-md-1 form-group"> <input type="button" value="*"></div>
+									
+									<div class="col-md-8">Conevenio</div>
+									<div class="col-md-4">Telefones</div>
+									<div class="col-md-6 form-group"> <input type="text" size="5" class="form-control"> </div>
+									<div class="col-md-6 form-group"> <input type="text" size="5" class="form-control"> </div>
+									
+									<div class="col-md-6">Status</div>
+									<div class="col-md-3">Chegada</div>
+									<div class="col-md-3">Atendimento</div>
+									<div class="col-md-6">
+									<select class="form-control">
+										<option>Confirmado</option>
+										<option>Cancelado</option>
+										<option>Agendado</option>
+									</select>
+									</div>
+									<div class="col-md-3"><input type="text" class="form-control"></div>
+									<div class="col-md-3"><input type="text" class="form-control"></div>
+									
+									<div class="col-md-12">Valor</div>
+									<div class="col-md-6 form-group"> <input type="text" size="5" class="form-control"> </div>
+									
+									<div class="col-md-12">Notas</div>
+									<div class="col-md-12 form-group"> <textarea class="form-control"></textarea> </div>
+									
+									
+									</div>
+								</div>
+								
+								
+									
+								
+								
+								</div>
+								
+							</fieldset>
+							
+						</div>
+					</fieldset>
+
+
+
+				</form>
+			</div>
+		</div>
+		<div id="rodape" class="col-md-12"></div>
+	</div>
+	</div>
+
+	<script>
+		
+	</script>
+</body>
+</html>
